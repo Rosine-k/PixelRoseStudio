@@ -31,23 +31,21 @@ function Header() {
         
         <nav className="navigation__liens">
 
-          <Link to="/" className="navigation__accueil">  Accueil  </Link>
+          <Link to="/" className="navigation__a">  Accueil  </Link>
 
-          <Link to="/apropos"className="navigation__apropos"> Qui sommes nous ?  </Link>
+          <Link to="/apropos"className="navigation__a"> Mes services  </Link>
 
-          <Link to="/ateliers"className="navigation__ateliers">  Les ateliers  </Link>
+          <Link to="/ateliers"className="navigation__a">  Portfolio  </Link>
 
-          <Link to="/partenaires"className="navigation__partenaires">Partenaires  </Link>
+          <Link to="/partenaires"className="navigation__a"> A propos </Link>
 
-          <Link to="/actualites"className="navigation__agenda">  Actualités  </Link>
+          <Link to="/actualites"className="navigation__a">  Tarif  </Link>
 
           <Link to="/contact"className="navigation__contact">  Contact  </Link>
 
         </nav>
 
       </div>
-
-      
       
     </header>
   );

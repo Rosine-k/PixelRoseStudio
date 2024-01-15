@@ -1,5 +1,6 @@
 import React  from 'react';
 import Header from "../../layouts/Header/index";
+import Footer from '../../layouts/Footer';
 
 function Accueil() {
     return (
@@ -9,7 +10,7 @@ function Accueil() {
             <main>
 
             </main>
-
+            <Footer />
         </div>
     )
 }

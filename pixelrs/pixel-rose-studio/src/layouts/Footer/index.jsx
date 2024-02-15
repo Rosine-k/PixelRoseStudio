@@ -16,21 +16,24 @@ function Footer() {
                 <Link to="/">
                     <img className="footer__instagram" src={logoInstagram} alt="logo Instagram" />
                 </Link>
+            </div>    
 
-            </div>
-
-            <div className="footer__text">
-                <p>Développeuse Web indépendante, je suis là pour <br /> concrétiser vos idées à travers des sites internet sur mesure. <br />
-                Je mets en œuvre mes compétences pour répondre à vos besoins dans une variété de domaines créatifs. <br /> Priorisant les projets artistiques, je reste ouverte à explorer et à collaborer sur diverses initiatives.</p>
-            </div>
+            <div className="footer__bloc" >
+                <div className="footer__text">
+                    <h3 className="footer__titre">Développeuse web indépendante</h3>
+                    <p>Je suis là pour  concrétiser vos idées à travers des sites <br />internet sur mesure.
+                    Je mets en œuvre mes compétences <br />pour répondre à vos besoins dans une variété de <br />domaines créatifs. Priorisant les projets artistiques, je <br /> reste  ouverte à explorer et à collaborer sur <br />diverses initiatives.</p>
+                </div>
         
-            <div className="footer__contact">
-                <h3>Pixel Rose Studio</h3>
-                <p>9 rue de Colonnes</p>
-                <p>75002 Paris</p>
-                <p>+33 06 52 56 20 23</p>
-                <p>contact@pixelrosestudio.fr</p>
+                 <div className="footer__contact">
+                    <h3 className="footer__titre">Pixel Rose Studio</h3>
+                    <p>9 rue de Colonnes <br />75002 Paris <br />+33 06 52 56 20 23 <br /> contact@pixelrosestudio.fr</p>
+                </div>
+           
+
             </div>
+
+            
         
         </footer>
       

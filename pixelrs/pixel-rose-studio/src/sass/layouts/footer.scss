@@ -1,0 +1,55 @@
+.footer {
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    justify-content: space-between;
+    // min-height: 100vh;
+    
+    &__facebook {
+        width: 50px;
+        height: 50px;
+        margin: 10px
+    }
+    &__instagram {
+        width: 50px;
+        height: 50px;
+        margin: 10px
+    }
+    &__instagram:hover {
+        transform: scale(1.2)
+    }
+    &__facebook:hover {
+        transform: scale(1.2)
+    }
+    &__text {
+        color: white;
+        margin-left: 30px;
+        font-size: 15px;
+        font-weight: 500;
+        // order: -1;
+    }
+    &__titre {
+        text-transform: uppercase;
+        font-size: 15px;
+    }
+    &__contact {
+        color: white;
+    }
+    &__logo-container {
+        display: flex;
+        justify-content: center; /* Centre les logos horizontalement */
+        align-items: flex-start;
+        background-color: #FE94CB;
+        transition: top 0.3s;
+    }
+    &__contact {
+        margin-left: auto; /* Place le bloc footer__adresse à droite */
+        text-align: right;
+        margin-right: 30px;
+    }
+    &__bloc {
+        display: flex;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+}
